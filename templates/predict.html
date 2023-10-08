@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Predict Geomagnetic Storm</title>
+    <link rel="stylesheet" href="../static/css/style predict.css">
+</head>
+<body>
+    <section class="navbar">
+        <img src="../static/images/Logo.png" class="logo">
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../about us.html">About Us</a></li>
+            <li><a href="../wind and storm.html">Solar wind and Geomagnetic storm</a></li>
+            
+        </ul>          
+    </section>
+    <h1>GEOMAGNETIC STORM PREDICTION</h1>
+    <form method="post" action="/predict">
+        <label for="v1_mean">v1_mean</label>
+        <input type="text" name="v1_mean">
+        <label for="v1_std">v1_std</label>
+        <input type="text" name="v1_std"><br>
+        <label for="v2_mean">v2_mean</label>
+        <input type="text" name="v2_mean">
+        <label for="v2_std">v2_std</label>
+        <input type="text" name="v2_std"><br>
+        <label for="v3_mean">v3_mean</label>
+        <input type="text" name="v3_mean">
+        <label for="v3_std">v3_std</label>
+        <input type="text" name="v3_std"><br>
+        <h3>M_MEAM</h3>
+        <div class="m_mean">
+            <label for="m1_mean">m1_mean</label>
+            <input type="text" name="m1_mean">
+            <label for="m2_mean">m2_mean</label>
+            <input type="text" name="m2_mean">
+            <label for="m3_mean">m3_mean</label>
+            <input type="text" name="m3_mean"><br>
+            <label for="m4_mean">m4_mean</label>
+            <input type="text" name="m4_mean">
+            <label for="m5_mean">m5_mean</label>
+            <input type="text" name="m5_mean">
+            <label for="m6_mean">m6_mean</label>
+            <input type="text" name="m6_mean"><br>
+            <label for="m7_mean">m7_mean</label>
+            <input type="text" name="m7_mean">
+            <label for="m8_mean">m8_mean</label>
+            <input type="text" name="m8_mean">
+            <label for="m9_mean">m9_mean</label>
+            <input type="text" name="m9_mean"><br>
+            <label for="m10_mean">m10_mean</label>
+            <input type="text" name="m10_mean">
+            <label for="m11_mean">m11_mean</label>
+            <input type="text" name="m11_mean">
+            <label for="m12_mean">m12_mean</label>
+            <input type="text" name="m12_mean"><br>
+            <label for="m13_mean">m13_mean</label>
+            <input type="text" name="m13_mean">
+            <label for="m14_mean">m14_mean</label>
+            <input type="text" name="m14_mean">
+            <label for="m15_mean">m15_mean</label>
+            <input type="text" name="m15_mean"><br>
+            <label for="m16_mean">m16_mean</label>
+            <input type="text" name="m16_mean">
+            <label for="m17_mean">m17_mean</label>
+            <input type="text" name="m17_mean">
+            <label for="m18_mean">m18_mean</label>
+            <input type="text" name="m18_mean"><br>
+            <label for="m19_mean">m19_mean</label>
+            <input type="text" name="m19_mean">
+            <label for="m20_mean">m20_mean</label>
+            <input type="text" name="m20_mean">
+            <label for="m21_mean">m21_mean</label>
+            <input type="text" name="m21_mean"><br>
+            <label for="m22_mean">m22_mean</label>
+            <input type="text" name="m22_mean">
+            <label for="m23_mean">m23_mean</label>
+            <input type="text" name="m23_mean">
+            <label for="m24_mean">m24_mean</label>
+            <input type="text" name="m24_mean"><br>
+            <label for="m25_mean">m25_mean</label>
+            <input type="text" name="m25_mean">
+            <label for="m26_mean">m26_mean</label>
+            <input type="text" name="m26_mean">
+            <label for="m27_mean">m27_mean</label>
+            <input type="text" name="m27_mean"><br>
+            <label for="m28_mean">m28_mean</label>
+            <input type="text" name="m28_mean">
+            <label for="m29_mean">m29_mean</label>
+            <input type="text" name="m29_mean">
+            <label for="m30_mean">m30_mean</label>
+            <input type="text" name="m30_mean"><br>
+            <label for="m31_mean">m31_mean</label>
+            <input type="text" name="m31_mean">
+            <label for="m32_mean">m32_mean</label>
+            <input type="text" name="m32_mean">
+            <label for="m33_mean">m33_mean</label>
+            <input type="text" name="m33_mean"><br>
+            <label for="m34_mean">m34_mean</label>
+            <input type="text" name="m34_mean">
+            <label for="m35_mean">m35_mean</label>
+            <input type="text" name="m35_mean">
+            <label for="m36_mean">m36_mean</label>
+            <input type="text" name="m36_mean"><br>
+            <label for="m37_mean">m37_mean</label>
+            <input type="text" name="m37_mean">
+            <label for="m38_mean">m38_mean</label>
+            <input type="text" name="m38_mean">
+            <label for="m39_mean">m39_mean</label>
+            <input type="text" name="m39_mean"><br>
+            <label for="m40_mean">m40_mean</label>
+            <input type="text" name="m40_mean">
+            <label for="m41_mean">m41_mean</label>
+            <input type="text" name="m41_mean">
+            <label for="m42_mean">m42_mean</label>
+            <input type="text" name="m42_mean"><br>
+            <label for="m43_mean">m43_mean</label>
+            <input type="text" name="m43_mean">
+            <label for="m44_mean">m44_mean</label>
+            <input type="text" name="m44_mean">
+            <label for="m45_mean">m45_mean</label>
+            <input type="text" name="m45_mean"><br>
+            <label for="m46_mean">m46_mean</label>
+            <input type="text" name="m46_mean">
+            <label for="m47_mean">m47_mean</label>
+            <input type="text" name="m47_mean">
+            <label for="m48_mean">m48_mean</label>
+            <input type="text" name="m48_mean"><br>
+            <label for="m49_mean">m49_mean</label>
+            <input type="text" name="m49_mean">
+            <label for="m50_mean">m50_mean</label>
+            <input type="text" name="m50_mean">
+        </div>        
+        <label for="Bsr">Bsr</label>
+        <input type="text" name="Bsr">
+        <label for="dB">dB</label>
+        <input type="text" name="dB"><br>
+        <label for="Ap">Ap</label>
+        <input type="text" name="Ap">
+        <label for="SN">SN</label>
+        <input type="text" name="SN"><br>
+        <label for="F10.7obs">F10.7obs</label>
+        <input type="text" name="F10.7obs">
+        <label for="F10.7adj">F10.7adj</label>
+        <input type="text" name="F10.7adj"><br>
+        <label for="D">D</label>
+        <input type="text" name="D">
+        <label for="IMF">IMF</label>
+        <input type="text" name="IMF"><br>
+        <label for="PLS">PLS</label>
+        <input type="text" name="PLS">
+        <label for="ABS_B">ABS_B</label>
+        <input type="text" name="ABS_B"><br>
+        <label for="F">F</label>
+        <input type="text" name="F">
+        <label for="T">T</label>
+        <input type="text" name="T"><br>
+        <label for="N">N</label>
+        <input type="text" name="N">
+        <label for="Pressure">Pressure</label>
+        <input type="text" name="Pressure"><br>
+        <label for="KP">KP</label>
+        <input type="text" name="KP">
+        <label for="DST">DST</label>
+        <input type="text" name="DST"><br>
+        <h3>B_MAG</h3>
+        <div class="B_MAG">
+            <label for="Bx_MAG">Bx_MAG</label>
+            <input type="text" name="Bx_MAG">
+            <label for="By_MAG">By_MAG</label>
+            <input type="text" name="By_MAG">
+            <label for="Bz_MAG">Bz_MAG</label>
+            <input type="text" name="Bz_MAG">
+        </div> 
+        <h3>B_DIRECTION</h3>
+        <div class="B_DIRECTION">
+            <label for="THETA_AV">THETA_AV</label>
+            <input type="text" name="THETA_AV">
+            <label for="PHI_AV">PHI_AV</label>
+            <input type="text" name="PHI_AV">
+        </div>
+        <h3>FLOW_SPEED</h3>   
+        <div class="FLOW_SPEED">
+            <label for="V">V</label>
+            <input type="text" name="V">
+            <label for="PHI_V">PHI_AV</label>
+            <input type="text" name="PHI_V">
+            <label for="THETA_V">THETA_AV</label>
+            <input type="text" name="THETA_V">          
+        </div>
+        <h3>B_DEVIATION</h3>
+        <div class="B_DEVIATION">
+            <label for="SIGMA_Bx">SIGMA_Bx</label>
+            <input type="text" name="SIGMA_Bx">
+            <label for="SIGMA_By">SIGMA_By</label>
+            <input type="text" name="SIGMA_By">
+            <label for="SIGMA_Bz">SIGMA_Bz</label>
+            <input type="text" name="SIGMA_Bz">
+        </div>
+        <h3>PLASMA_DEVIATION</h3>
+        <div class="PLASMA_DEVIATION">
+            <label for="SIGMA_BT">SIGMA_BT</label>
+            <input type="text" name="SIGMA_BT">
+            <label for="SIGMA_BN">SIGMA_BN</label>
+            <input type="text" name="SIGMA_BN">
+            <label for="SIGMA_BV">SIGMA_BV</label>
+            <input type="text" name="SIGMA_BV">
+        </div>  
+        <h3>SOLAR_WIND_ENERGY</h3>
+        <div class="SOLAR_WIND_ENERGY">
+            <label for="F10_INDEX">F10_INDEX</label>
+            <input type="text" name="F10_INDEX">
+            <label for="R">R</label>
+            <input type="text" name="R">
+            <label for="Solar_Lyman_alpha">Solar_Lyman_alpha</label>
+            <input type="text" name="Solar_Lyman_alpha">
+        </div>            
+        <label for="F10.7obs_ABS_B_interaction">F10.7obs_ABS_B_interaction</label>
+        <input type="text" name="F10.7obs_ABS_B_interaction">
+        <label for="SOLAR_WIND_ENERGY_Pressure_ratio">SOLAR_WIND_ENERGY_Pressure_ratio</label>
+        <input type="text" name="SOLAR_WIND_ENERGY_Pressure_ratio"><br>
+        <label for="ap_std">ap_std</label>
+        <input type="text" name="ap_std">
+        <label for="total_ap">total_ap</label>
+        <input type="text" name="total_ap"><br>
+
+        <button type="submit"><span></span>PREDICT</button>
+    </form>    
+</body>
+</html>

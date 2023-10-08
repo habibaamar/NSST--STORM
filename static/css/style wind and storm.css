@@ -1,0 +1,94 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    background: rgb(255, 255, 255);
+
+}
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    cursor: pointer;
+    width: 100px;
+    height: 100px;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+.navbar ul li a{
+    text-decoration: none ;
+    color: #f42702;
+    text-transform: uppercase;
+}
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    position: absolute;
+    background:#b82500 ;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+.navbar ul li:hover::after{
+    width: 100%;
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card{
+    background: white ;
+    width: 25%;
+    height: 900px;
+    margin: 25px;
+    border-radius: 15px;
+    border: #a71900 solid;
+    box-shadow: 0 10px 40px rgba(149, 37, 0, 0.7);
+}
+.card_img{
+    height: 200px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+}
+.wind{
+    background-image: url(../images/solar-flare-and-sunspot-facts.webp);
+}
+
+.storm{
+    background-image: url(../images/download.jpeg);
+}
+.model{
+    background-image: url(../images/images.jpeg);
+}
+.card h2{
+    padding: 20px;
+    color: #a71900;
+}
+.card p{
+    padding: 20px;
+    font-size: larger;
+}
+.card:hover{
+    background-color: #ff8146;
+    color: white;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 1s ease;
+}
